@@ -141,6 +141,7 @@
         .menu-btn__burger::after {
             transform: translateY(16px);
         }
+        
         /* ANIMATION */
         .menu-btn.open .menu-btn__burger {
             transform: translateX(-50px);
@@ -183,6 +184,16 @@
             border-radius:5px;
             top:-30px;
             background-color:#FFF;
+        }
+
+        .div-whiteX {
+            position: relative;
+            border-radius: 5px;
+            top: -30px;
+            background-image: url('../image2/map2.jpg'); /* Add your image URL */
+            background-size: cover; /* Ensures the image covers the entire div */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
         }
         
         .link-footer-parent{
@@ -416,6 +427,14 @@
             }
             .title{
                 font-size: 50px !important;
+            }
+
+
+            .title{
+                color: #FFF;
+                
+                padding: 20px 0 35px 0;
+                margin: 0;
             }
         }
 
